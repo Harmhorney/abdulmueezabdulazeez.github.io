@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdulmueez Abdulazeez Olajuwon | FP&A Portfolio</title>
+
+<!-- SEO -->
+<meta name="description" content="Senior FP&A professional with 4+ years of experience in financial modelling, multi-entity budgeting, automated reporting, and market expansion strategy. FMVA and FPAP certified. Explore interactive financial models including LTV/CAC, 3-Statement forecasts, variance analysis, and scenario planning.">
+<meta name="keywords" content="FP&A, Financial Planning Analysis, Financial Modelling, FMVA, FPAP, Senior Analyst, Budgeting, Forecasting, LTV CAC, Variance Analysis, Power BI, SQL, EdTech Finance, Nigeria, Abdulmueez Abdulazeez">
+<meta name="author" content="Abdulmueez Abdulazeez Olajuwon">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph — controls how LinkedIn, WhatsApp, Facebook render the preview card -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Abdulmueez Abdulazeez Olajuwon | Senior FP&A Professional">
+<meta property="og:description" content="Strategic FP&A Lead with 4+ years experience in financial modelling, automated reporting, and market expansion strategy. FMVA · FPAP. Interactive portfolio with live financial models — LTV/CAC, 3-Statement forecasts, variance analysis, and scenario planning.">
+<meta property="og:url" content="https://abdulmueez.github.io">
+<meta property="og:site_name" content="Abdulmueez Abdulazeez — FP&A Portfolio">
+<meta property="og:image" content="https://abdulmueez.github.io/preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Abdulmueez Abdulazeez Olajuwon — Senior FP&A Professional Portfolio">
+<meta property="og:locale" content="en_GB">
+
+<!-- Twitter / X Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Abdulmueez Abdulazeez Olajuwon | Senior FP&A Professional">
+<meta name="twitter:description" content="Strategic FP&A Lead · FMVA · FPAP · Interactive portfolio with live financial models. 4+ years in multi-entity budgeting, automated reporting and market expansion.">
+<meta name="twitter:image" content="https://abdulmueez.github.io/preview.png">
+<meta name="twitter:image:alt" content="Abdulmueez Abdulazeez — FP&A Portfolio Preview">
+
+<!-- LinkedIn profile metadata -->
+<meta property="profile:first_name" content="Abdulmueez">
+<meta property="profile:last_name" content="Abdulazeez Olajuwon">
+
+<!-- Canonical URL — update this once you have your hosting URL -->
+<link rel="canonical" href="https://abdulmueez.github.io">
+
+<!-- Favicon — teal background with gold A, matches portfolio brand -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%230e4d44'/><text x='16' y='22' font-family='serif' font-size='16' font-weight='bold' fill='%23c9a84c' text-anchor='middle'>A</text></svg>">
+
+<!-- Mobile browser chrome colour -->
+<meta name="theme-color" content="#0e4d44">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Mono:wght@300;400;500&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+:root {
+  --ink: #0d1117;
+  --paper: #f5f0e8;
+  --gold: #c9a84c;
+  --gold-d: #9a7a2e;
+  --teal: #0e4d44;
+  --teal-mid: #1a6b5e;
+  --teal-light: #2d8c7a;
+  --cream: #faf7f0;
+  --muted: #6b6355;
+  --border: rgba(201,168,76,0.25);
+  --green: #1D9E75;
+  --red: #D85A30;
+  --blue: #378ADD;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Cormorant Garamond',Georgia,serif;background:var(--cream);color:var(--ink);overflow-x:hidden}
+
+/* NAV */
+nav{position:fixed;top:36px;left:0;right:0;z-index:200;display:flex;align-items:center;justify-content:space-between;padding:1rem 3rem;background:rgba(250,247,240,0.94);backdrop-filter:blur(16px);border-bottom:1px solid var(--border)}
+.nav-logo{font-family:'Syne',sans-serif;font-weight:800;font-size:0.8rem;letter-spacing:0.15em;color:var(--teal);text-transform:uppercase}
+.nav-links{display:flex;gap:2rem;list-style:none}
+.nav-links a{font-family:'DM Mono',monospace;font-size:0.65rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);text-decoration:none;transition:color 0.2s}
+.nav-links a:hover{color:var(--teal)}
+
+/* HERO */
+.hero{min-height:100vh;display:grid;grid-template-columns:1.1fr 0.9fr;padding-top:108px;position:relative;overflow:hidden}
+.hero-bg{position:absolute;inset:0;background:
+  repeating-linear-gradient(0deg,transparent,transparent 47px,rgba(201,168,76,0.07) 47px,rgba(201,168,76,0.07) 48px),
+  repeating-linear-gradient(90deg,transparent,transparent 47px,rgba(201,168,76,0.05) 47px,rgba(201,168,76,0.05) 48px);pointer-events:none}
+.hero-left{display:flex;flex-direction:column;justify-content:center;padding:5rem 3rem 5rem 5rem;position:relative;z-index:1}
+.eyebrow{font-family:'DM Mono',monospace;font-size:0.68rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:1.5rem;display:flex;align-items:center;gap:1rem}
+.eyebrow::before{content:'';display:block;width:36px;height:1px;background:var(--gold)}
+h1.name{font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(2.6rem,4.5vw,4.2rem);line-height:1.05;letter-spacing:-0.02em;margin-bottom:0.2rem}
+h1.name em{font-style:italic;color:var(--teal)}
+.creds{font-family:'DM Mono',monospace;font-size:0.72rem;color:var(--gold);letter-spacing:0.1em;margin-bottom:2rem}
+.tagline{font-size:1.15rem;font-weight:300;line-height:1.75;color:var(--muted);max-width:500px;margin-bottom:2.5rem;padding-left:1.5rem;border-left:2px solid var(--gold)}
+.hero-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-bottom:2.5rem}
+.stat-num{font-family:'Syne',sans-serif;font-size:1.9rem;font-weight:800;color:var(--teal);line-height:1}
+.stat-lbl{font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-top:0.25rem}
+.cta-row{display:flex;gap:0.8rem}
+.btn-p{display:inline-flex;align-items:center;gap:0.5rem;background:var(--teal);color:var(--gold);font-family:'DM Mono',monospace;font-size:0.68rem;letter-spacing:0.1em;text-transform:uppercase;padding:0.85rem 1.8rem;text-decoration:none;border:1px solid var(--teal);transition:all 0.2s}
+.btn-p:hover{background:var(--teal-mid);transform:translateY(-2px)}
+.btn-o{display:inline-flex;align-items:center;gap:0.5rem;background:transparent;color:var(--teal);font-family:'DM Mono',monospace;font-size:0.68rem;letter-spacing:0.1em;text-transform:uppercase;padding:0.85rem 1.8rem;text-decoration:none;border:1px solid var(--teal);transition:all 0.2s}
+.btn-o:hover{background:rgba(14,77,68,0.06)}
+.hero-right{display:flex;flex-direction:column;justify-content:center;align-items:flex-end;padding:5rem 4rem 5rem 2rem;position:relative;z-index:1}
+.hero-card{background:var(--teal);color:var(--cream);padding:2.5rem;width:100%;max-width:400px;position:relative}
+.hero-card::before{content:'';position:absolute;top:10px;left:10px;right:-10px;bottom:-10px;border:1px solid var(--gold);z-index:-1}
+.hc-label{font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);margin-bottom:1.5rem}
+.hc-title{font-family:'Cormorant Garamond',serif;font-weight:300;font-size:1.25rem;color:var(--cream);margin-bottom:1.5rem;line-height:1.4}
+.contact-list{list-style:none}
+.contact-list li{display:flex;align-items:flex-start;gap:0.8rem;font-family:'DM Mono',monospace;font-size:0.68rem;color:rgba(250,247,240,0.75);padding:0.6rem 0;border-bottom:1px solid rgba(201,168,76,0.15)}
+.contact-list li:last-child{border-bottom:none}
+.ci{color:var(--gold);width:12px;flex-shrink:0;margin-top:1px}
+.contact-list a{color:inherit;text-decoration:none}
+.contact-list a:hover{color:var(--gold)}
+
+/* SECTIONS */
+section{padding:5.5rem 0}
+.container{max-width:1180px;margin:0 auto;padding:0 3.5rem}
+.sec-hdr{margin-bottom:3.5rem}
+.sec-lbl{font-family:'DM Mono',monospace;font-size:0.65rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:0.8rem;display:flex;align-items:center;gap:1rem}
+.sec-lbl::after{content:'';flex:1;height:1px;background:var(--border)}
+.sec-title{font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(1.8rem,3.5vw,2.8rem);line-height:1.1;color:var(--ink)}
+.sec-title em{font-style:italic;color:var(--teal)}
+
+/* SKILLS */
+#skills{background:var(--ink)}
+#skills .sec-lbl{color:var(--gold)}
+#skills .sec-lbl::after{background:rgba(201,168,76,0.2)}
+#skills .sec-title{color:var(--cream)}
+#skills .sec-title em{color:var(--gold)}
+.skills-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;margin-top:2.5rem}
+.sk-block{background:rgba(245,240,232,0.04);padding:1.8rem;border:1px solid rgba(201,168,76,0.1);transition:background 0.25s}
+.sk-block:hover{background:rgba(14,77,68,0.2)}
+.sk-cat{font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);margin-bottom:0.8rem}
+.sk-block h4{font-family:'Syne',sans-serif;font-size:0.95rem;font-weight:600;color:var(--cream);margin-bottom:0.8rem}
+.sk-list{list-style:none}
+.sk-list li{font-family:'DM Mono',monospace;font-size:0.67rem;color:rgba(250,247,240,0.55);padding:0.28rem 0;border-bottom:1px solid rgba(255,255,255,0.04)}
+.sk-list li:last-child{border-bottom:none}
+
+/* EXPERIENCE */
+#experience{background:var(--paper)}
+.timeline{position:relative;padding-left:1px}
+.timeline::before{content:'';position:absolute;left:0;top:0;bottom:0;width:1px;background:var(--border)}
+.t-entry{display:grid;grid-template-columns:260px 1fr;gap:2.5rem;padding:2.5rem 0;border-bottom:1px solid var(--border);position:relative}
+.t-entry::before{content:'';position:absolute;left:-5px;top:2.8rem;width:9px;height:9px;background:var(--gold);border-radius:50%}
+.t-entry:last-child{border-bottom:none}
+.t-meta{padding-left:1.8rem}
+.t-period{font-family:'DM Mono',monospace;font-size:0.65rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--gold);margin-bottom:0.4rem}
+.t-role{font-family:'Syne',sans-serif;font-size:0.95rem;font-weight:700;color:var(--teal);margin-bottom:0.3rem}
+.t-co{font-family:'Cormorant Garamond',serif;font-size:0.95rem;font-style:italic;color:var(--muted)}
+.t-content h5{font-family:'Cormorant Garamond',serif;font-size:0.8rem;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:var(--teal);margin:1rem 0 0.4rem}
+.t-content h5:first-child{margin-top:0}
+.t-bullets{list-style:none}
+.t-bullets li{font-size:0.97rem;line-height:1.7;color:var(--ink);padding:0.25rem 0 0.25rem 1.4rem;position:relative}
+.t-bullets li::before{content:'→';position:absolute;left:0;color:var(--gold);font-size:0.75rem;top:0.45rem}
+.t-bullets li strong{color:var(--teal)}
+.chip{display:inline-block;background:rgba(14,77,68,0.08);border:1px solid rgba(14,77,68,0.18);color:var(--teal);font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:0.06em;padding:0.15rem 0.5rem;margin-left:0.4rem;vertical-align:middle}
+
+/* PROJECTS */
+#projects{background:var(--cream)}
+.proj-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px}
+.proj-card{background:var(--paper);border:1px solid var(--border);overflow:hidden;transition:all 0.3s;position:relative}
+.proj-card:hover{background:white;transform:translateY(-3px);box-shadow:0 20px 50px rgba(14,77,68,0.1)}
+.proj-header{padding:2rem 2rem 0}
+.proj-tag{font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);margin-bottom:0.8rem}
+.proj-card h3{font-family:'Cormorant Garamond',serif;font-size:1.4rem;font-weight:600;line-height:1.3;color:var(--ink);margin-bottom:0.8rem}
+.proj-card p.desc{font-size:0.97rem;line-height:1.7;color:var(--muted);margin-bottom:1rem}
+.proj-badges{display:flex;flex-wrap:wrap;gap:0.5rem;padding:0 2rem 1rem}
+.badge{background:var(--teal);color:var(--gold);font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:0.06em;padding:0.3rem 0.7rem}
+.tools-row{display:flex;flex-wrap:wrap;gap:0.4rem;padding:0 2rem 1rem}
+.tool{border:1px solid var(--border);color:var(--muted);font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:0.06em;padding:0.2rem 0.5rem}
+
+/* INTERACTIVE MODEL PANELS */
+.model-toggle{display:flex;align-items:center;gap:0.8rem;padding:1rem 2rem;border-top:1px solid var(--border);cursor:pointer;background:none;border-left:none;border-right:none;border-bottom:none;width:100%;font-family:'DM Mono',monospace;font-size:0.65rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--teal);transition:background 0.2s}
+.model-toggle:hover{background:rgba(14,77,68,0.04)}
+.toggle-icon{width:20px;height:20px;border-radius:50%;background:var(--teal);color:var(--gold);display:inline-flex;align-items:center;justify-content:center;font-size:0.7rem;flex-shrink:0;transition:transform 0.25s}
+.model-panel{max-height:0;overflow:hidden;transition:max-height 0.5s ease;background:white;border-top:none}
+.model-panel.open{max-height:900px}
+.model-inner{padding:1.5rem 2rem 2rem}
+
+/* INNER MODEL STYLES */
+.m-tabs{display:flex;gap:2px;background:var(--paper);border-radius:6px;padding:3px;margin-bottom:1.2rem}
+.m-tab{flex:1;padding:6px;text-align:center;font-size:0.7rem;font-family:'DM Mono',monospace;cursor:pointer;border-radius:4px;border:none;background:transparent;color:var(--muted);transition:all 0.15s;letter-spacing:0.06em}
+.m-tab.active{background:white;color:var(--teal);font-weight:500;border:0.5px solid var(--border)}
+.m-pane{display:none}
+.m-pane.active{display:block}
+.m-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:8px;margin-bottom:1.2rem}
+.m-card{background:var(--paper);border-radius:6px;padding:10px 12px}
+.m-card .ml{font-size:0.65rem;font-family:'DM Mono',monospace;color:var(--muted);margin-bottom:4px}
+.m-card .mv{font-size:1.2rem;font-weight:500;color:var(--ink)}
+.m-card .md{font-size:0.65rem;margin-top:2px;font-family:'DM Mono',monospace}
+.gn{color:#1D9E75}.rd{color:#D85A30}
+.ctrl-g{display:grid;grid-template-columns:1fr 1fr;gap:10px 18px;margin-bottom:1.2rem}
+.ctrl label{display:block;font-size:0.65rem;font-family:'DM Mono',monospace;color:var(--muted);margin-bottom:4px}
+.ctrl-r{display:flex;align-items:center;gap:8px}
+.ctrl-r input[type=range]{flex:1}
+.ctrl-r .ro{font-size:0.7rem;font-weight:500;min-width:55px;text-align:right;color:var(--ink);font-family:'DM Mono',monospace}
+.ch-wrap{position:relative;height:180px;margin-bottom:0.8rem}
+.m-table{width:100%;font-size:0.75rem;border-collapse:collapse;margin-bottom:1rem}
+.m-table th{text-align:left;font-size:0.62rem;font-family:'DM Mono',monospace;letter-spacing:0.06em;text-transform:uppercase;color:var(--muted);padding:6px 8px;border-bottom:1px solid var(--border)}
+.m-table td{padding:6px 8px;border-bottom:0.5px solid var(--border);color:var(--ink);font-family:'DM Mono',monospace;font-size:0.7rem}
+.m-table tr:last-child td{border-bottom:none;font-weight:500}
+.m-table .rh{color:var(--muted)}
+.m-table .hl td{background:var(--paper)}
+.insight{background:rgba(14,77,68,0.06);border-left:3px solid var(--teal-light);padding:10px 12px;border-radius:0 6px 6px 0;font-size:0.82rem;line-height:1.6;color:var(--ink);margin-bottom:0.8rem;font-family:'Cormorant Garamond',serif}
+.scen-grid-m{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:1.2rem}
+.scen-m{border:0.5px solid var(--border);border-radius:6px;padding:10px;cursor:pointer;background:var(--cream);transition:all 0.15s}
+.scen-m.active{border:1.5px solid var(--teal)}
+.scen-m .sn{font-size:0.75rem;font-weight:500;font-family:'DM Mono',monospace;color:var(--teal);margin-bottom:2px}
+.scen-m .sd{font-size:0.65rem;font-family:'DM Mono',monospace;color:var(--muted)}
+.leg{display:flex;gap:12px;font-size:0.65rem;font-family:'DM Mono',monospace;color:var(--muted);margin-bottom:0.6rem;flex-wrap:wrap}
+.ld{width:9px;height:9px;border-radius:2px;display:inline-block;margin-right:3px}
+
+/* DASHBOARD SECTION */
+#dashboard{background:var(--ink)}
+#dashboard .sec-lbl{color:var(--gold)}
+#dashboard .sec-lbl::after{background:rgba(201,168,76,0.2)}
+#dashboard .sec-title{color:var(--cream)}
+#dashboard .sec-title em{color:var(--gold)}
+.db-frame{background:rgba(255,255,255,0.03);border:1px solid rgba(201,168,76,0.2);padding:2rem;margin-top:2.5rem}
+.db-topbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.5rem;padding-bottom:1.2rem;border-bottom:1px solid rgba(201,168,76,0.15)}
+.db-title{font-family:'Syne',sans-serif;font-size:0.8rem;font-weight:700;color:var(--cream);letter-spacing:0.06em}
+.db-period{font-family:'DM Mono',monospace;font-size:0.62rem;color:var(--gold);letter-spacing:0.1em}
+.db-kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;margin-bottom:1.5rem}
+.kpi{background:rgba(255,255,255,0.04);padding:1.2rem;border:1px solid rgba(201,168,76,0.07)}
+.kpi-l{font-family:'DM Mono',monospace;font-size:0.58rem;letter-spacing:0.12em;text-transform:uppercase;color:rgba(250,247,240,0.4);margin-bottom:0.6rem}
+.kpi-v{font-family:'Syne',sans-serif;font-size:1.6rem;font-weight:800;color:var(--cream);line-height:1}
+.kpi-d{font-family:'DM Mono',monospace;font-size:0.62rem;margin-top:0.3rem}
+.kpi-d.p{color:#1D9E75}.kpi-d.n{color:#D85A30}
+.db-charts{display:grid;grid-template-columns:2fr 1fr;gap:1px}
+.db-ca{background:rgba(255,255,255,0.03);padding:1.2rem;border:1px solid rgba(201,168,76,0.07)}
+.db-cl{font-family:'DM Mono',monospace;font-size:0.58rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(250,247,240,0.4);margin-bottom:1rem}
+.db-ch{position:relative;height:130px}
+
+/* EDUCATION */
+#education{background:var(--paper)}
+.certs-g{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-bottom:2.5rem}
+.cert{display:flex;gap:1.2rem;align-items:flex-start;padding:1.5rem;border:1px solid var(--border);background:var(--cream);transition:all 0.25s}
+.cert:hover{border-color:var(--gold);background:white}
+.cert-icon{width:42px;height:42px;flex-shrink:0;background:var(--teal);display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif;font-size:0.62rem;font-weight:800;color:var(--gold);text-align:center;line-height:1.2}
+.cert-t{font-family:'Syne',sans-serif;font-size:0.85rem;font-weight:700;color:var(--teal);margin-bottom:0.2rem}
+.cert-o{font-family:'DM Mono',monospace;font-size:0.62rem;color:var(--muted);letter-spacing:0.06em}
+.cert-y{font-family:'DM Mono',monospace;font-size:0.62rem;color:var(--gold);margin-top:0.2rem}
+.edu-blk{display:flex;justify-content:space-between;align-items:center;padding:1.8rem;background:var(--teal);color:var(--cream);margin-bottom:2rem}
+.edu-deg{font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-style:italic;margin-bottom:0.3rem}
+.edu-sch{font-family:'DM Mono',monospace;font-size:0.65rem;color:rgba(201,168,76,0.8);letter-spacing:0.08em}
+.edu-yr{font-family:'Syne',sans-serif;font-size:1.4rem;font-weight:800;color:var(--gold)}
+.ind-strip{display:flex;gap:0.8rem;flex-wrap:wrap;margin-top:1.5rem}
+.ind-pill{border:1px solid var(--border);padding:0.5rem 1rem;font-family:'DM Mono',monospace;font-size:0.65rem;letter-spacing:0.08em;text-transform:uppercase;color:var(--teal);transition:all 0.2s;cursor:default}
+.ind-pill:hover{background:var(--teal);color:var(--gold)}
+
+/* CONTACT */
+#contact{background:var(--teal)}
+#contact .sec-lbl{color:var(--gold)}
+#contact .sec-lbl::after{background:rgba(201,168,76,0.3)}
+#contact .sec-title{color:var(--cream)}
+#contact .sec-title em{color:var(--gold)}
+.con-grid{display:grid;grid-template-columns:1fr 1fr;gap:3.5rem;margin-top:2.5rem;align-items:start}
+.con-desc{font-size:1.1rem;line-height:1.8;color:rgba(250,247,240,0.8);margin-bottom:1.8rem}
+.con-list{list-style:none}
+.con-list li{display:flex;align-items:flex-start;gap:0.8rem;font-family:'DM Mono',monospace;font-size:0.68rem;color:rgba(250,247,240,0.65);padding:0.9rem 0;border-bottom:1px solid rgba(201,168,76,0.15)}
+.con-list li:last-child{border-bottom:none}
+.con-list .ci{color:var(--gold);width:12px;flex-shrink:0}
+.con-list a{color:inherit;text-decoration:none}
+.con-list a:hover{color:var(--gold)}
+.avail-box{background:rgba(250,247,240,0.06);border:1px solid rgba(201,168,76,0.25);padding:2rem}
+.avail-lbl{font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);margin-bottom:1.2rem}
+.avail-status{display:flex;align-items:center;gap:0.7rem;font-family:'Syne',sans-serif;font-size:1.2rem;font-weight:700;color:var(--cream);margin-bottom:0.8rem}
+.dot{width:9px;height:9px;border-radius:50%;background:#4caf82;box-shadow:0 0 0 3px rgba(76,175,130,0.3);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 3px rgba(76,175,130,0.3)}50%{box-shadow:0 0 0 6px rgba(76,175,130,0.1)}}
+.avail-note{font-family:'DM Mono',monospace;font-size:0.67rem;color:rgba(250,247,240,0.55);line-height:1.6;margin-bottom:1.5rem}
+.avail-prefs{display:flex;flex-direction:column;gap:0.6rem}
+.avail-pref{display:flex;align-items:center;gap:0.7rem;font-family:'DM Mono',monospace;font-size:0.65rem;color:rgba(250,247,240,0.65)}
+.avail-pref::before{content:'✓';color:var(--gold);font-size:0.72rem}
+
+footer{background:var(--ink);padding:1.8rem 3.5rem;display:flex;align-items:center;justify-content:space-between}
+.ft-name{font-family:'Syne',sans-serif;font-size:0.72rem;font-weight:700;letter-spacing:0.1em;color:rgba(250,247,240,0.35);text-transform:uppercase}
+.ft-copy{font-family:'DM Mono',monospace;font-size:0.6rem;color:rgba(250,247,240,0.2)}
+
+.fade-up{opacity:0;transform:translateY(18px);animation:fu 0.65s ease forwards}
+@keyframes fu{to{opacity:1;transform:translateY(0)}}
+.fade-up:nth-child(1){animation-delay:0.1s}
+.fade-up:nth-child(2){animation-delay:0.22s}
+.fade-up:nth-child(3){animation-delay:0.34s}
+.fade-up:nth-child(4){animation-delay:0.46s}
+.fade-up:nth-child(5){animation-delay:0.58s}
+
+@media(max-width:900px){
+  nav{padding:1rem 1.5rem}
+  .nav-links{display:none}
+  .hero{grid-template-columns:1fr}
+  .hero-left{padding:4.5rem 1.5rem 2rem}
+  .hero-right{padding:1.5rem 1.5rem 3.5rem;align-items:stretch}
+  .hero-card{max-width:100%}
+  .container{padding:0 1.5rem}
+  .skills-grid{grid-template-columns:1fr 1fr}
+  .proj-grid{grid-template-columns:1fr}
+  .db-kpis{grid-template-columns:1fr 1fr}
+  .db-charts{grid-template-columns:1fr}
+  .certs-g{grid-template-columns:1fr}
+  .con-grid{grid-template-columns:1fr;gap:2rem}
+  .t-entry{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<!-- DISCLAIMER BANNER -->
+<div id="disclaimer-bar" style="background:#0e4d44;color:rgba(250,247,240,0.85);font-family:'DM Mono',monospace;font-size:0.65rem;letter-spacing:0.06em;text-align:center;padding:0.55rem 2rem;position:fixed;top:0;left:0;right:0;z-index:300;display:flex;align-items:center;justify-content:center;gap:1rem;border-bottom:1px solid rgba(201,168,76,0.3)">
+  <span style="color:#c9a84c;font-size:0.7rem">⚠</span>
+  <span>All financial figures, metrics, and projections shown in this portfolio are <strong style="color:rgba(250,247,240,1)">illustrative and for demonstration purposes only</strong>. They do not represent actual company financials, confidential business data, or proprietary information.</span>
+  <button onclick="document.getElementById('disclaimer-bar').style.display='none';document.querySelector('nav').style.top='0';document.querySelector('.hero').style.paddingTop='72px'" style="background:none;border:1px solid rgba(201,168,76,0.4);color:rgba(250,247,240,0.6);font-family:'DM Mono',monospace;font-size:0.6rem;padding:0.2rem 0.6rem;cursor:pointer;flex-shrink:0;letter-spacing:0.08em">DISMISS</button>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">Abdulmueez Abdulazeez</div>
+  <ul class="nav-links">
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#dashboard">Dashboard</a></li>
+    <li><a href="#education">Credentials</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-left">
+    <div class="eyebrow fade-up">FP&amp;A Portfolio · Senior Analyst</div>
+    <h1 class="name fade-up">Abdulmueez<br><em>Abdulazeez</em><br>Olajuwon</h1>
+    <div class="creds fade-up">FMVA® · FPAP™</div>
+    <p class="tagline fade-up">Strategic FP&amp;A Lead with 4+ years turning multi-entity financial complexity into board-ready decisions. Specialising in automated reporting, driver-based modelling, and market expansion strategy across EdTech, SaaS &amp; Logistics.</p>
+    <div class="hero-stats fade-up">
+      <div><div class="stat-num">4+</div><div class="stat-lbl">Years FP&amp;A</div></div>
+      <div><div class="stat-num">90%</div><div class="stat-lbl">Reporting Time ↓</div></div>
+      <div><div class="stat-num">$250k+</div><div class="stat-lbl">Inefficiencies Caught</div></div>
+    </div>
+    <div class="cta-row fade-up">
+      <a href="#projects" class="btn-p">Explore Projects ↓</a>
+      <a href="#contact" class="btn-o">Get in Touch</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-card">
+      <div class="hc-label">Current Role &amp; Contact</div>
+      <p class="hc-title">FP&amp;A Lead · uLesson Group<br>(Miva Open University)</p>
+      <ul class="contact-list">
+        <li><span class="ci">✆</span><span>+234-7032602217</span></li>
+        <li><span class="ci">✉</span><a href="mailto:abdulmueezabdulazeez@gmail.com">abdulmueezabdulazeez@gmail.com</a></li>
+        <li><span class="ci">⌖</span><span>Abuja, Nigeria · Relocation Ready</span></li>
+        <li><span class="ci">in</span><a href="https://www.linkedin.com/in/abdulazeez-abdulmueez-3bab5418a" target="_blank">linkedin.com/in/abdulazeez-abdulmueez</a></li>
+        <li><span class="ci">✦</span><span>English (Fluent) · Yoruba (Native)</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div class="sec-hdr">
+      <div class="sec-lbl">Core Competencies</div>
+      <h2 class="sec-title">What I <em>bring</em> to every engagement</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="sk-block"><div class="sk-cat">Financial Modelling</div><h4>Modelling &amp; Valuation</h4><ul class="sk-list"><li>3-Statement Integrated Forecasting</li><li>DCF Valuation</li><li>LTV / CAC &amp; Unit Economics</li><li>Sensitivity &amp; Scenario Analysis</li><li>Driver-Based Models</li></ul></div>
+      <div class="sk-block"><div class="sk-cat">Planning &amp; Budgeting</div><h4>Budget &amp; Forecast</h4><ul class="sk-list"><li>Zero-Based Budgeting</li><li>Incremental Budgeting</li><li>Rolling Forecasts</li><li>Variance Analysis (BVA)</li><li>Capital Allocation &amp; Governance</li></ul></div>
+      <div class="sk-block"><div class="sk-cat">Reporting &amp; Analytics</div><h4>Executive Reporting</h4><ul class="sk-list"><li>Executive Dashboard Design</li><li>Automated Board Packages</li><li>KPI Framework Development</li><li>Multi-Currency Consolidation</li><li>Intercompany Reconciliations</li></ul></div>
+      <div class="sk-block"><div class="sk-cat">Technical Stack</div><h4>Tools &amp; Technology</h4><ul class="sk-list"><li>SQL · AI-Driven Automation</li><li>Power BI · Tableau</li><li>Advanced Excel · Power Query</li><li>Deluge / VBA · Zoho Books</li><li>Oracle · Google Data Studio</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container">
+    <div class="sec-hdr">
+      <div class="sec-lbl">Professional Experience</div>
+      <h2 class="sec-title">Career <em>timeline</em></h2>
+    </div>
+    <div class="timeline">
+      <div class="t-entry">
+        <div class="t-meta">
+          <div class="t-period">Jan 2025 — Present</div>
+          <div class="t-role">FP&amp;A Lead</div>
+          <div class="t-co">uLesson Group<br>(Miva Open University)<br>Abuja, Nigeria</div>
+        </div>
+        <div class="t-content">
+          <h5>Strategic Leadership</h5>
+          <ul class="t-bullets"><li>Own the financial strategy and annual planning cycles for a <strong>multi-entity portfolio</strong>, directly advising the CFO and Board on resource allocation and long-term financial health.</li></ul>
+          <h5>Architectural Innovation</h5>
+          <ul class="t-bullets"><li>Spearheaded digital transformation of finance — engineered custom <strong>SQL/AI-driven automated workflows</strong> reducing consolidated reporting time by <span class="chip">90%+</span></li></ul>
+          <h5>Executive Business Partnering</h5>
+          <ul class="t-bullets"><li>Translate board objectives into actionable KPIs and departmental budgets, ensuring strict alignment between group strategy and subsidiary execution.</li></ul>
+          <h5>Revenue &amp; Expansion Modelling</h5>
+          <ul class="t-bullets"><li>Lead complex feasibility studies and unit economic modelling for <strong>Kenya market entry</strong>, providing the financial rigor required for board-level investment decisions.</li></ul>
+          <h5>Capital Governance</h5>
+          <ul class="t-bullets"><li>Manage group-wide Opex/Capex budgets, identifying over <strong>$250k in operational inefficiencies</strong> through aggressive variance analysis and process improvement.</li></ul>
+        </div>
+      </div>
+      <div class="t-entry">
+        <div class="t-meta">
+          <div class="t-period">Oct 2023 — Dec 2024</div>
+          <div class="t-role">FP&amp;A Analyst</div>
+          <div class="t-co">uLesson Group<br>(Miva Open University)<br>Abuja, Nigeria</div>
+        </div>
+        <div class="t-content">
+          <ul class="t-bullets">
+            <li><strong>Financial Modelling:</strong> Developed robust driver-based financial models (3-statement, LTV/CAC) supporting management decisions and performance tracking across business units.</li>
+            <li><strong>Budgeting &amp; Reporting:</strong> Collaborated with department heads to build annual budgets and monthly budget-vs-actual (BVA) analysis.</li>
+            <li><strong>Controllership:</strong> Executed monthly/quarterly close for multiple entities — complex accruals, intercompany reconciliations, and balance sheet consolidation.</li>
+            <li><strong>Data Integrity:</strong> Standardised data collection across platforms, improving management report accuracy and customer retention insights.</li>
+            <li><strong>Performance Optimisation:</strong> Deep-dive operational spend analysis — recommendations optimised marketing efficiency and streamlined service delivery costs.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="t-entry">
+        <div class="t-meta">
+          <div class="t-period">May 2022 — Dec 2022</div>
+          <div class="t-role">Fleet Data Analyst</div>
+          <div class="t-co">Alerzo<br>Ibadan, Nigeria</div>
+        </div>
+        <div class="t-content">
+          <ul class="t-bullets">
+            <li><strong>Logistics Optimisation:</strong> Analysed fleet data to optimise delivery routes — <span class="chip">10% efficiency gain</span> + significant fuel cost reductions.</li>
+            <li><strong>BI Dashboarding:</strong> Built KPI dashboards monitoring vehicle utilisation and maintenance, providing real-time insights to the operations team.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="t-entry">
+        <div class="t-meta">
+          <div class="t-period">Feb 2020 — Apr 2022</div>
+          <div class="t-role">Product Analyst</div>
+          <div class="t-co">M-Systems Canada Corp.<br>(myWare Product) · Remote</div>
+        </div>
+        <div class="t-content">
+          <ul class="t-bullets">
+            <li><strong>User Behaviour Analytics:</strong> SQL and analytics tools for in-depth performance analysis of a Canadian-based SaaS platform.</li>
+            <li><strong>Growth Strategy:</strong> A/B tests and feature analysis influenced the product roadmap — <span class="chip">20% user engagement ↑</span></li>
+            <li><strong>Executive Reporting:</strong> Automated visualisations providing the executive team with product health and growth insights.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <div class="sec-hdr">
+      <div class="sec-lbl">Project Showcase · Interactive Models</div>
+      <h2 class="sec-title">Live <em>work</em> — click any project to interact</h2>
+    </div>
+    <div class="proj-grid">
+
+      <!-- PROJECT 1: AI Automation -->
+      <div class="proj-card" style="grid-column:span 2">
+        <div class="proj-header">
+          <div class="proj-tag">★ Flagship · Automation &amp; Reporting</div>
+          <h3>AI-Driven Finance Automation: 90% Reduction in Reporting Time</h3>
+          <p class="desc">Architected custom SQL/AI-driven automated workflows transforming the consolidated reporting cycle at uLesson Group — from a multi-day manual process to a near-instant automated pipeline serving C-suite and Board stakeholders across multiple entities.</p>
+        </div>
+        <div class="proj-badges"><span class="badge">90%+ Time Saved</span><span class="badge">Multi-Entity Scope</span><span class="badge">Board-Ready Output</span><span class="badge">AI Automation</span></div>
+        <div class="tools-row"><span class="tool">SQL</span><span class="tool">AI Automation</span><span class="tool">Deluge/VBA</span><span class="tool">Zoho Books</span><span class="tool">Power BI</span></div>
+        <button class="model-toggle" onclick="toggleModel('m1')">
+          <span class="toggle-icon" id="icon-m1">▶</span>
+          Open Interactive Reporting Efficiency Model
+        </button>
+        <div class="model-panel" id="m1">
+          <div class="model-inner">
+            <div class="m-tabs">
+              <button class="m-tab active" onclick="mTab('m1','eff')">Efficiency Gains</button>
+              <button class="m-tab" onclick="mTab('m1','vol')">Volume Scaling</button>
+            </div>
+            <div id="m1-eff" class="m-pane active">
+              <div class="ctrl-g">
+                <div class="ctrl"><label>Entities consolidated</label><div class="ctrl-r"><input type="range" min="1" max="20" value="5" step="1" oninput="calcEff()"><span class="ro" id="eff-ent">5</span></div></div>
+                <div class="ctrl"><label>Manual hrs per report cycle</label><div class="ctrl-r"><input type="range" min="4" max="80" value="40" step="1" oninput="calcEff()"><span class="ro" id="eff-hrs">40 hrs</span></div></div>
+                <div class="ctrl"><label>Reports per month</label><div class="ctrl-r"><input type="range" min="1" max="20" value="6" step="1" oninput="calcEff()"><span class="ro" id="eff-rpts">6</span></div></div>
+                <div class="ctrl"><label>Automation coverage (%)</label><div class="ctrl-r"><input type="range" min="50" max="98" value="90" step="1" oninput="calcEff()"><span class="ro" id="eff-auto">90%</span></div></div>
+              </div>
+              <div class="m-cards" id="eff-cards"></div>
+              <div class="ch-wrap"><canvas id="eff-chart" role="img" aria-label="Before and after automation hours comparison">Hours comparison before and after automation.</canvas></div>
+              <div class="insight" id="eff-insight"></div>
+            </div>
+            <div id="m1-vol" class="m-pane">
+              <div class="ctrl-g">
+                <div class="ctrl"><label>Avg analyst hourly cost (₦k)</label><div class="ctrl-r"><input type="range" min="5" max="50" value="15" step="1" oninput="calcVol()"><span class="ro" id="vol-rate">₦15k</span></div></div>
+                <div class="ctrl"><label>Annual report cycles</label><div class="ctrl-r"><input type="range" min="12" max="120" value="72" step="6" oninput="calcVol()"><span class="ro" id="vol-cyc">72</span></div></div>
+              </div>
+              <div class="m-cards" id="vol-cards"></div>
+              <div class="ch-wrap"><canvas id="vol-chart" role="img" aria-label="Annual cost savings from automation">Annual cost savings chart.</canvas></div>
+              <div class="insight" id="vol-insight"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 2: LTV/CAC -->
+      <div class="proj-card">
+        <div class="proj-header">
+          <div class="proj-tag">Unit Economics · EdTech</div>
+          <h3>LTV/CAC &amp; Unit Economics Model — Multi-BU</h3>
+          <p class="desc">Built and maintained driver-based LTV/CAC frameworks across multiple business units providing live unit economics tracking. Underpins the Kenya expansion investment thesis and board-level reporting on customer economics.</p>
+        </div>
+        <div class="proj-badges"><span class="badge">4.7x LTV:CAC</span><span class="badge">Multi-BU</span></div>
+        <div class="tools-row"><span class="tool">Advanced Excel</span><span class="tool">LTV/CAC</span><span class="tool">Scenario Analysis</span></div>
+        <button class="model-toggle" onclick="toggleModel('m2')">
+          <span class="toggle-icon" id="icon-m2">▶</span>
+          Open Live LTV/CAC Model
+        </button>
+        <div class="model-panel" id="m2">
+          <div class="model-inner">
+            <div class="ctrl-g">
+              <div class="ctrl"><label>Monthly new customers</label><div class="ctrl-r"><input type="range" min="50" max="2000" step="10" value="500" oninput="calcLtv()"><span class="ro" id="ltv-nc">500</span></div></div>
+              <div class="ctrl"><label>ARPU (₦k/month)</label><div class="ctrl-r"><input type="range" min="5" max="200" step="1" value="45" oninput="calcLtv()"><span class="ro" id="ltv-arpu">₦45k</span></div></div>
+              <div class="ctrl"><label>Monthly churn (%)</label><div class="ctrl-r"><input type="range" min="1" max="25" step="0.5" value="5" oninput="calcLtv()"><span class="ro" id="ltv-ch">5.0%</span></div></div>
+              <div class="ctrl"><label>Gross margin (%)</label><div class="ctrl-r"><input type="range" min="20" max="90" step="1" value="65" oninput="calcLtv()"><span class="ro" id="ltv-gm">65%</span></div></div>
+              <div class="ctrl"><label>CAC (₦k)</label><div class="ctrl-r"><input type="range" min="10" max="500" step="5" value="120" oninput="calcLtv()"><span class="ro" id="ltv-cac">₦120k</span></div></div>
+              <div class="ctrl"><label>Discount rate (%)</label><div class="ctrl-r"><input type="range" min="5" max="40" step="1" value="12" oninput="calcLtv()"><span class="ro" id="ltv-dr">12%</span></div></div>
+            </div>
+            <div class="m-cards" id="ltv-cards"></div>
+            <div class="leg" id="ltv-leg"></div>
+            <div class="ch-wrap"><canvas id="ltv-chart" role="img" aria-label="LTV payback curve over 24 months">LTV payback curve showing cumulative value vs CAC.</canvas></div>
+            <div class="insight" id="ltv-insight"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 3: Kenya Expansion -->
+      <div class="proj-card">
+        <div class="proj-header">
+          <div class="proj-tag">Market Expansion · Strategic Finance</div>
+          <h3>Kenya Market Entry: Feasibility &amp; Investment Model</h3>
+          <p class="desc">Built the board-level feasibility model for uLesson Group's Kenya expansion — market sizing, revenue ramp, break-even analysis, and scenario modelling. Provided the financial rigor behind the investment approval decision.</p>
+        </div>
+        <div class="proj-badges"><span class="badge">Board-Approved</span><span class="badge">New Market Entry</span></div>
+        <div class="tools-row"><span class="tool">DCF Modelling</span><span class="tool">Scenario Analysis</span><span class="tool">Market Sizing</span></div>
+        <button class="model-toggle" onclick="toggleModel('m3')">
+          <span class="toggle-icon" id="icon-m3">▶</span>
+          Open Market Entry Feasibility Model
+        </button>
+        <div class="model-panel" id="m3">
+          <div class="model-inner">
+            <div class="m-tabs">
+              <button class="m-tab active" onclick="mTab('m3','mkt')">Market Sizing</button>
+              <button class="m-tab" onclick="mTab('m3','scen')">Scenario Analysis</button>
+            </div>
+            <div id="m3-mkt" class="m-pane active">
+              <div class="ctrl-g">
+                <div class="ctrl"><label>Target addressable population (M)</label><div class="ctrl-r"><input type="range" min="1" max="20" step="0.5" value="8" oninput="calcMkt()"><span class="ro" id="mkt-pop">8M</span></div></div>
+                <div class="ctrl"><label>Digital penetration (%)</label><div class="ctrl-r"><input type="range" min="10" max="80" step="1" value="35" oninput="calcMkt()"><span class="ro" id="mkt-dig">35%</span></div></div>
+                <div class="ctrl"><label>Market capture rate — Yr 1 (%)</label><div class="ctrl-r"><input type="range" min="0.1" max="5" step="0.1" value="0.5" oninput="calcMkt()"><span class="ro" id="mkt-cap">0.5%</span></div></div>
+                <div class="ctrl"><label>ARPU — Kenya (₦k/year)</label><div class="ctrl-r"><input type="range" min="20" max="200" step="5" value="65" oninput="calcMkt()"><span class="ro" id="mkt-arpu">₦65k</span></div></div>
+                <div class="ctrl"><label>Ramp-up investment (₦M)</label><div class="ctrl-r"><input type="range" min="50" max="1000" step="25" value="250" oninput="calcMkt()"><span class="ro" id="mkt-inv">₦250M</span></div></div>
+                <div class="ctrl"><label>Year-on-year growth (%)</label><div class="ctrl-r"><input type="range" min="10" max="80" step="1" value="35" oninput="calcMkt()"><span class="ro" id="mkt-gr">35%</span></div></div>
+              </div>
+              <div class="m-cards" id="mkt-cards"></div>
+              <div class="ch-wrap"><canvas id="mkt-chart" role="img" aria-label="Kenya 3-year revenue ramp projection">Kenya market revenue ramp over 3 years.</canvas></div>
+              <div class="insight" id="mkt-insight"></div>
+            </div>
+            <div id="m3-scen" class="m-pane">
+              <div class="scen-grid-m">
+                <div class="scen-m active" id="ks-base" onclick="loadKScen('base')"><div class="sn">Base case</div><div class="sd">35% growth, steady ramp</div></div>
+                <div class="scen-m" id="ks-bull" onclick="loadKScen('bull')"><div class="sn">Bull case</div><div class="sd">60% growth, pricing power</div></div>
+                <div class="scen-m" id="ks-bear" onclick="loadKScen('bear')"><div class="sn">Bear case</div><div class="sd">15% growth, FX headwinds</div></div>
+              </div>
+              <div class="ch-wrap"><canvas id="kscen-chart" role="img" aria-label="Kenya scenario comparison">Kenya scenario comparison chart.</canvas></div>
+              <div class="insight" id="kscen-insight"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 4: Budget Governance -->
+      <div class="proj-card">
+        <div class="proj-header">
+          <div class="proj-tag">Capital Governance · Variance Analysis</div>
+          <h3>3-Statement Forecast &amp; $250k+ Budget Governance</h3>
+          <p class="desc">Designed a group-wide capital governance framework with rolling BVA cycles. Identified and remediated over $250k in operational inefficiencies. Includes a live 3-statement forecast model built on real driver assumptions.</p>
+        </div>
+        <div class="proj-badges"><span class="badge">$250k+ Recovered</span><span class="badge">Group-Wide</span></div>
+        <div class="tools-row"><span class="tool">3-Statement Model</span><span class="tool">Variance Analysis</span><span class="tool">Oracle</span></div>
+        <button class="model-toggle" onclick="toggleModel('m4')">
+          <span class="toggle-icon" id="icon-m4">▶</span>
+          Open 3-Statement Forecast &amp; BVA Model
+        </button>
+        <div class="model-panel" id="m4">
+          <div class="model-inner">
+            <div class="m-tabs">
+              <button class="m-tab active" onclick="mTab('m4','stmt')">3-Statement</button>
+              <button class="m-tab" onclick="mTab('m4','bva')">BVA Analysis</button>
+            </div>
+            <div id="m4-stmt" class="m-pane active">
+              <div class="ctrl-g">
+                <div class="ctrl"><label>Revenue base (₦M)</label><div class="ctrl-r"><input type="range" min="100" max="5000" step="50" value="2400" oninput="calcStmt()"><span class="ro" id="st-rev">₦2,400M</span></div></div>
+                <div class="ctrl"><label>YoY growth (%)</label><div class="ctrl-r"><input type="range" min="-10" max="80" step="1" value="22" oninput="calcStmt()"><span class="ro" id="st-gr">22%</span></div></div>
+                <div class="ctrl"><label>COGS % of revenue</label><div class="ctrl-r"><input type="range" min="10" max="70" step="1" value="35" oninput="calcStmt()"><span class="ro" id="st-cogs">35%</span></div></div>
+                <div class="ctrl"><label>Opex % of revenue</label><div class="ctrl-r"><input type="range" min="10" max="60" step="1" value="36" oninput="calcStmt()"><span class="ro" id="st-opex">36%</span></div></div>
+                <div class="ctrl"><label>Tax rate (%)</label><div class="ctrl-r"><input type="range" min="0" max="40" step="1" value="20" oninput="calcStmt()"><span class="ro" id="st-tax">20%</span></div></div>
+                <div class="ctrl"><label>Capex % of revenue</label><div class="ctrl-r"><input type="range" min="0" max="30" step="1" value="8" oninput="calcStmt()"><span class="ro" id="st-capex">8%</span></div></div>
+              </div>
+              <table class="m-table" id="stmt-table"></table>
+              <div class="ch-wrap" style="margin-top:1rem"><canvas id="stmt-chart" role="img" aria-label="3-year P&L forecast">3-year P&L forecast bar chart.</canvas></div>
+            </div>
+            <div id="m4-bva" class="m-pane">
+              <div class="ctrl-g">
+                <div class="ctrl"><label>Budget revenue (₦M)</label><div class="ctrl-r"><input type="range" min="500" max="5000" step="50" value="2200" oninput="calcBva()"><span class="ro" id="bv-br">₦2,200M</span></div></div>
+                <div class="ctrl"><label>Actual revenue (₦M)</label><div class="ctrl-r"><input type="range" min="500" max="5000" step="50" value="2385" oninput="calcBva()"><span class="ro" id="bv-ar">₦2,385M</span></div></div>
+                <div class="ctrl"><label>Budget Opex (₦M)</label><div class="ctrl-r"><input type="range" min="200" max="3000" step="25" value="1650" oninput="calcBva()"><span class="ro" id="bv-bo">₦1,650M</span></div></div>
+                <div class="ctrl"><label>Actual Opex (₦M)</label><div class="ctrl-r"><input type="range" min="200" max="3000" step="25" value="1718" oninput="calcBva()"><span class="ro" id="bv-ao">₦1,718M</span></div></div>
+              </div>
+              <table class="m-table" id="bva-table"></table>
+              <div class="ch-wrap" style="margin-top:1rem"><canvas id="bva-chart" role="img" aria-label="Budget vs actual waterfall">Budget vs actual bridge chart.</canvas></div>
+              <div class="insight" id="bva-insight"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 5: Scenario Planning -->
+      <div class="proj-card">
+        <div class="proj-header">
+          <div class="proj-tag">Strategic Finance · Scenario Planning</div>
+          <h3>Group Scenario Planning: Base / Bull / Bear Framework</h3>
+          <p class="desc">Built the group's multi-scenario financial planning framework — Base, Bull, and Bear cases stress-testing revenue, EBITDA, and unit economics under different macro assumptions. Used by the CFO for board presentations and capital allocation decisions.</p>
+        </div>
+        <div class="proj-badges"><span class="badge">CFO-Level</span><span class="badge">Multi-Scenario</span></div>
+        <div class="tools-row"><span class="tool">Scenario Analysis</span><span class="tool">Driver Modelling</span><span class="tool">Power BI</span></div>
+        <button class="model-toggle" onclick="toggleModel('m5')">
+          <span class="toggle-icon" id="icon-m5">▶</span>
+          Open Scenario Planning Model
+        </button>
+        <div class="model-panel" id="m5">
+          <div class="model-inner">
+            <div class="scen-grid-m">
+              <div class="scen-m active" id="gs-base" onclick="loadGScen('base')"><div class="sn">Base case</div><div class="sd">22% growth · 29% margin</div></div>
+              <div class="scen-m" id="gs-bull" onclick="loadGScen('bull')"><div class="sn">Bull case</div><div class="sd">38% growth · 33% margin</div></div>
+              <div class="scen-m" id="gs-bear" onclick="loadGScen('bear')"><div class="sn">Bear case</div><div class="sd">8% growth · 21% margin</div></div>
+            </div>
+            <table class="m-table" id="gscen-table"></table>
+            <div class="leg" id="gscen-leg"></div>
+            <div class="ch-wrap" style="margin-top:0.8rem"><canvas id="gscen-chart" role="img" aria-label="Scenario comparison revenue and EBITDA">Scenario comparison chart.</canvas></div>
+            <div class="insight" id="gscen-insight"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 6: Fleet / SaaS Analytics -->
+      <div class="proj-card">
+        <div class="proj-header">
+          <div class="proj-tag">Data Analytics · BI Dashboarding</div>
+          <h3>Fleet &amp; SaaS Analytics: Multi-Industry BI Portfolio</h3>
+          <p class="desc">Dual-industry analytics showcase — fleet route optimisation at Alerzo (10% efficiency gain) and SaaS product analytics at M-Systems Canada (20% user engagement uplift). Both built on SQL and BI tooling with C-suite-ready reporting.</p>
+        </div>
+        <div class="proj-badges"><span class="badge">10% Fleet Efficiency</span><span class="badge">20% Engagement ↑</span></div>
+        <div class="tools-row"><span class="tool">SQL</span><span class="tool">Tableau</span><span class="tool">Power BI</span><span class="tool">A/B Testing</span></div>
+        <button class="model-toggle" onclick="toggleModel('m6')">
+          <span class="toggle-icon" id="icon-m6">▶</span>
+          Open Analytics &amp; KPI Dashboard
+        </button>
+        <div class="model-panel" id="m6">
+          <div class="model-inner">
+            <div class="m-tabs">
+              <button class="m-tab active" onclick="mTab('m6','fleet')">Fleet Analytics</button>
+              <button class="m-tab" onclick="mTab('m6','saas')">SaaS Analytics</button>
+            </div>
+            <div id="m6-fleet" class="m-pane active">
+              <div class="ctrl-g">
+                <div class="ctrl"><label>Fleet size (vehicles)</label><div class="ctrl-r"><input type="range" min="10" max="500" step="5" value="120" oninput="calcFleet()"><span class="ro" id="fl-size">120</span></div></div>
+                <div class="ctrl"><label>Avg daily km per vehicle</label><div class="ctrl-r"><input type="range" min="50" max="500" step="10" value="180" oninput="calcFleet()"><span class="ro" id="fl-km">180 km</span></div></div>
+                <div class="ctrl"><label>Fuel cost (₦/km)</label><div class="ctrl-r"><input type="range" min="50" max="500" step="10" value="180" oninput="calcFleet()"><span class="ro" id="fl-fuel">₦180</span></div></div>
+                <div class="ctrl"><label>Route optimisation saving (%)</label><div class="ctrl-r"><input type="range" min="1" max="25" step="0.5" value="10" oninput="calcFleet()"><span class="ro" id="fl-save">10%</span></div></div>
+              </div>
+              <div class="m-cards" id="fleet-cards"></div>
+              <div class="ch-wrap"><canvas id="fleet-chart" role="img" aria-label="Monthly fuel cost savings from route optimisation">Fleet cost savings chart.</canvas></div>
+              <div class="insight" id="fleet-insight"></div>
+            </div>
+            <div id="m6-saas" class="m-pane">
+              <div class="ctrl-g">
+                <div class="ctrl"><label>Monthly active users (k)</label><div class="ctrl-r"><input type="range" min="1" max="500" step="1" value="85" oninput="calcSaas()"><span class="ro" id="ss-mau">85k</span></div></div>
+                <div class="ctrl"><label>Engagement uplift (%)</label><div class="ctrl-r"><input type="range" min="5" max="60" step="1" value="20" oninput="calcSaas()"><span class="ro" id="ss-up">20%</span></div></div>
+                <div class="ctrl"><label>Revenue per engaged user ($/mo)</label><div class="ctrl-r"><input type="range" min="5" max="100" step="1" value="22" oninput="calcSaas()"><span class="ro" id="ss-rev">$22</span></div></div>
+                <div class="ctrl"><label>Conversion rate (%)</label><div class="ctrl-r"><input type="range" min="1" max="30" step="0.5" value="8" oninput="calcSaas()"><span class="ro" id="ss-cvr">8%</span></div></div>
+              </div>
+              <div class="m-cards" id="saas-cards"></div>
+              <div class="ch-wrap"><canvas id="saas-chart" role="img" aria-label="SaaS engagement and revenue uplift">SaaS analytics chart.</canvas></div>
+              <div class="insight" id="saas-insight"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- end proj-grid -->
+  </div>
+</section>
+<!-- EXEC DASHBOARD -->
+<section id="dashboard">
+  <div class="container">
+    <div class="sec-hdr">
+      <div class="sec-lbl">Executive Reporting Sample</div>
+      <h2 class="sec-title">Board-ready <em>dashboard</em> design</h2>
+      <p style="font-family:'DM Mono',monospace;font-size:0.65rem;color:rgba(201,168,76,0.7);margin-top:0.8rem;letter-spacing:0.04em">* All figures shown are illustrative and for demonstration purposes only.</p>
+    </div>
+    <div class="db-frame">
+      <div class="db-topbar">
+        <div class="db-title">GROUP CONSOLIDATED · EXECUTIVE DASHBOARD</div>
+        <div class="db-period">FY 2024 · Q4 SNAPSHOT · uLesson Group</div>
+      </div>
+      <div class="db-kpis">
+        <div class="kpi"><div class="kpi-l">Total Revenue</div><div class="kpi-v">₦2.4B</div><div class="kpi-d p">▲ 18.3% vs Budget</div></div>
+        <div class="kpi"><div class="kpi-l">Opex Spend</div><div class="kpi-v">₦1.7B</div><div class="kpi-d n">▼ 4.1% over Budget</div></div>
+        <div class="kpi"><div class="kpi-l">EBITDA Margin</div><div class="kpi-v">29.2%</div><div class="kpi-d p">▲ 3.4pp YoY</div></div>
+        <div class="kpi"><div class="kpi-l">Student LTV:CAC</div><div class="kpi-v">4.7x</div><div class="kpi-d p">▲ 0.8x vs Prior Year</div></div>
+      </div>
+      <div class="db-charts">
+        <div class="db-ca">
+          <div class="db-cl">Monthly Revenue Trend (₦M) — FY2024</div>
+          <div class="db-ch"><canvas id="db-rev-chart" role="img" aria-label="Monthly revenue trend for FY2024">Monthly revenue trend showing growth from January to December 2024.</canvas></div>
+        </div>
+        <div class="db-ca">
+          <div class="db-cl">EBITDA Bridge (₦M)</div>
+          <div class="db-ch"><canvas id="db-bridge-chart" role="img" aria-label="EBITDA variance bridge chart">EBITDA bridge from budget to actual.</canvas></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="container">
+    <div class="sec-hdr">
+      <div class="sec-lbl">Education &amp; Credentials</div>
+      <h2 class="sec-title">Qualifications &amp; <em>certifications</em></h2>
+    </div>
+    <div class="certs-g">
+      <div class="cert"><div class="cert-icon">FPAP™</div><div><div class="cert-t">FP&amp;A Professional (FPAP™)</div><div class="cert-o">Corporate Finance Institute (CFI)</div><div class="cert-y">2026</div></div></div>
+      <div class="cert"><div class="cert-icon">FMVA®</div><div><div class="cert-t">Financial Modeling &amp; Valuation Analyst (FMVA®)</div><div class="cert-o">Corporate Finance Institute (CFI)</div><div class="cert-y">2026</div></div></div>
+      <div class="cert"><div class="cert-icon">GDA</div><div><div class="cert-t">Google Data Analytics Professional Certificate</div><div class="cert-o">Google / Coursera</div><div class="cert-y">2022</div></div></div>
+      <div class="cert"><div class="cert-icon">B.Sc</div><div><div class="cert-t">Bachelor of Science</div><div class="cert-o">Federal University of Agriculture, Abeokuta</div><div class="cert-y">2021</div></div></div>
+    </div>
+    <div class="edu-blk">
+      <div><div class="edu-deg">Bachelor of Science</div><div class="edu-sch">Federal University of Agriculture, Abeokuta · Nigeria</div></div>
+      <div class="edu-yr">2021</div>
+    </div>
+    <div class="sec-lbl" style="margin-top:2rem;margin-bottom:0.5rem">Industries Covered</div>
+    <div class="ind-strip">
+      <span class="ind-pill">EdTech</span><span class="ind-pill">Higher Education</span><span class="ind-pill">SaaS</span>
+      <span class="ind-pill">Logistics</span><span class="ind-pill">E-Commerce</span><span class="ind-pill">Fintech</span>
+      <span class="ind-pill">Global Capital Markets</span><span class="ind-pill">Cloud Infrastructure</span>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="sec-hdr">
+      <div class="sec-lbl">Get in Touch</div>
+      <h2 class="sec-title">Open to <em>opportunities</em></h2>
+    </div>
+    <div class="con-grid">
+      <div>
+        <p class="con-desc">I'm actively seeking senior FP&amp;A roles internationally — with high-growth tech companies, global corporates, or mission-driven organisations. If you're looking for a strategic finance professional who builds models, builds relationships, and delivers results, let's talk.</p>
+        <ul class="con-list">
+          <li><span class="ci">✆</span><span>+234-7032602217</span></li>
+          <li><span class="ci">✉</span><a href="mailto:abdulmueezabdulazeez@gmail.com">abdulmueezabdulazeez@gmail.com</a></li>
+          <li><span class="ci">⌖</span><span>Abuja, Nigeria · Relocation Ready</span></li>
+          <li><span class="ci">in</span><a href="https://www.linkedin.com/in/abdulazeez-abdulmueez-3bab5418a" target="_blank">linkedin.com/in/abdulazeez-abdulmueez-3bab5418a</a></li>
+        </ul>
+      </div>
+      <div class="avail-box">
+        <div class="avail-lbl">Current Status</div>
+        <div class="avail-status"><div class="dot"></div>Open to Opportunities</div>
+        <p class="avail-note">Available for senior FP&amp;A roles, contract engagements, and advisory positions. Relocation-ready for international positions.</p>
+        <div class="avail-prefs">
+          <div class="avail-pref">Senior / Lead FP&amp;A roles</div>
+          <div class="avail-pref">Strategic Finance &amp; M&amp;A</div>
+          <div class="avail-pref">International &amp; Remote positions</div>
+          <div class="avail-pref">High-growth Tech &amp; EdTech</div>
+          <div class="avail-pref">Global corporate finance teams</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="ft-name">Abdulmueez Abdulazeez Olajuwon · FMVA® · FPAP™</div>
+  <div style="font-family:'DM Mono',monospace;font-size:0.58rem;color:rgba(250,247,240,0.2);text-align:center;max-width:500px;line-height:1.5">All figures are illustrative and for demonstration purposes only. They do not represent actual company financials or proprietary data.</div>
+  <div class="ft-copy">FP&amp;A Portfolio · 2025</div>
+</footer>
+<script>
+// ── UTILITIES ──
+const $ = id => document.getElementById(id);
+const fmtM = n => '₦' + Math.round(n).toLocaleString() + 'M';
+const fmtK = n => '₦' + Math.round(n).toLocaleString() + 'k';
+const fmtN = (n,dp=0) => n.toLocaleString('en-NG',{minimumFractionDigits:dp,maximumFractionDigits:dp});
+
+let charts = {};
+function mkChart(id, type, data, opts) {
+  if (charts[id]) charts[id].destroy();
+  charts[id] = new Chart($(id), { type, data, options: { responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}}, ...opts } });
+  return charts[id];
+}
+
+// ── TOGGLE PANELS ──
+function toggleModel(id) {
+  const panel = $('m' + id.replace('m',''));
+  const icon = $('icon-' + id);
+  if (!panel) { const p = $(id); const ic = $('icon-'+id.replace('m','')); if(!p)return; p.classList.toggle('open'); return; }
+}
+
+function toggleModel(id) {
+  const panel = $(id);
+  const icon = $('icon-' + id);
+  if (!panel) return;
+  const isOpen = panel.classList.contains('open');
+  panel.classList.toggle('open');
+  icon.textContent = isOpen ? '▶' : '▼';
+  if (!isOpen) {
+    setTimeout(() => {
+      if (id==='m1') { calcEff(); calcVol(); }
+      if (id==='m2') calcLtv();
+      if (id==='m3') { calcMkt(); loadKScen('base'); }
+      if (id==='m4') { calcStmt(); calcBva(); }
+      if (id==='m5') loadGScen('base');
+      if (id==='m6') { calcFleet(); calcSaas(); }
+    }, 100);
+  }
+}
+
+// ── INNER TABS ──
+function mTab(model, tab) {
+  document.querySelectorAll(`[id^="${model}-"]`).forEach(p => p.classList.remove('active'));
+  document.querySelectorAll(`#${$('m'+model.replace('m',''))||document} .m-tab`).forEach(b => b.classList.remove('active'));
+  $(`${model}-${tab}`).classList.add('active');
+  event.target.classList.add('active');
+  setTimeout(() => {
+    if (model==='m1' && tab==='eff') calcEff();
+    if (model==='m1' && tab==='vol') calcVol();
+    if (model==='m3' && tab==='mkt') calcMkt();
+    if (model==='m3' && tab==='scen') loadKScen('base');
+    if (model==='m4' && tab==='stmt') calcStmt();
+    if (model==='m4' && tab==='bva') calcBva();
+    if (model==='m6' && tab==='fleet') calcFleet();
+    if (model==='m6' && tab==='saas') calcSaas();
+  }, 50);
+}
+
+function cards(id, arr) {
+  $(id).innerHTML = arr.map(c => `<div class="m-card"><div class="ml">${c.l}</div><div class="mv">${c.v}</div><div class="md ${c.cls||''}">${c.d||''}</div></div>`).join('');
+}
+
+// ── PROJECT 1: EFFICIENCY ──
+function calcEff() {
+  const ent = +document.querySelector('#m1-eff input:nth-of-type(1)').value;
+  const hrs = +document.querySelector('#m1-eff input:nth-of-type(2)').value;
+  const rpts = +document.querySelector('#m1-eff input:nth-of-type(3)').value;
+  const auto = +document.querySelector('#m1-eff input:nth-of-type(4)').value / 100;
+  $('eff-ent').textContent = ent;
+  $('eff-hrs').textContent = hrs + ' hrs';
+  $('eff-rpts').textContent = rpts;
+  $('eff-auto').textContent = Math.round(auto*100) + '%';
+  const totalBefore = hrs * rpts;
+  const totalAfter = Math.round(totalBefore * (1 - auto));
+  const saved = totalBefore - totalAfter;
+  cards('eff-cards', [
+    {l:'Hours before (monthly)', v: totalBefore + ' hrs', d:'Manual process', cls:''},
+    {l:'Hours after automation', v: totalAfter + ' hrs', d:Math.round(auto*100)+'% automated', cls:'gn'},
+    {l:'Hours saved monthly', v: saved + ' hrs', d:'↓ ' + Math.round(auto*100) + '%', cls:'gn'},
+    {l:'Reports at same effort', v: Math.round(rpts / (1-auto)) + ' rpts', d:'Scalability gain', cls:'gn'},
+  ]);
+  mkChart('eff-chart','bar',{
+    labels:['Before Automation','After Automation'],
+    datasets:[{data:[totalBefore, totalAfter], backgroundColor:['#D85A30','#1D9E75'], borderRadius:4}]
+  },{scales:{y:{ticks:{callback:v=>v+' hrs', font:{size:10}}}, x:{ticks:{font:{size:10}}}}});
+  $('eff-insight').textContent = `With ${Math.round(auto*100)}% automation coverage across ${rpts} monthly reports spanning ${ent} entities, the team reclaimed ${saved} analyst-hours per month — equivalent to ${Math.round(saved/160)} full-time headcounts, redirected to strategic analysis and business partnering instead of data assembly.`;
+}
+
+function calcVol() {
+  const rate = +document.querySelector('#m1-vol input:nth-of-type(1)').value;
+  const cyc = +document.querySelector('#m1-vol input:nth-of-type(2)').value;
+  $('vol-rate').textContent = '₦' + rate + 'k';
+  $('vol-cyc').textContent = cyc;
+  const hrsBefore = 40 * cyc;
+  const hrsAfter = Math.round(hrsBefore * 0.1);
+  const saved = hrsBefore - hrsAfter;
+  const costSaved = Math.round(saved * rate);
+  cards('vol-cards', [
+    {l:'Annual hours saved', v: saved.toLocaleString() + ' hrs', d:'vs manual baseline', cls:'gn'},
+    {l:'Annual cost saving', v: '₦' + costSaved.toLocaleString() + 'k', d:'At ₦'+rate+'k/hr', cls:'gn'},
+    {l:'ROI on automation', v: Math.round(costSaved / 500) + 'x', d:'vs est. build cost', cls:'gn'},
+    {l:'FTE equivalent freed', v: Math.round(saved/1920*10)/10, d:'Full-time analysts', cls:'gn'},
+  ]);
+  const months = Array.from({length:12},(_,i)=>'M'+(i+1));
+  const monthly = months.map((_,i) => Math.round(saved/12 * rate));
+  mkChart('vol-chart','line',{
+    labels:months,
+    datasets:[{label:'Monthly savings (₦k)',data:monthly,borderColor:'#1D9E75',backgroundColor:'rgba(29,158,117,0.08)',fill:true,tension:0.4,pointRadius:3}]
+  },{scales:{y:{ticks:{callback:v=>'₦'+Math.round(v/1000)+'M',font:{size:10}}},x:{ticks:{font:{size:10}}}}});
+  $('vol-insight').textContent = `Over ${cyc} annual reporting cycles, automation delivers ₦${costSaved.toLocaleString()}k in analyst time savings — at an estimated ${Math.round(costSaved/500)}x ROI on implementation cost. This frees ${Math.round(saved/1920*10)/10} FTE equivalent annually for higher-value FP&A work.`;
+}
+
+// ── PROJECT 2: LTV/CAC ──
+function calcLtv() {
+  const inputs = document.querySelectorAll('#m2 .model-inner input[type=range]');
+  const [nc,arpu,ch,gm,cac,dr] = [...inputs].map(i=>+i.value);
+  $('ltv-nc').textContent = fmtN(nc);
+  $('ltv-arpu').textContent = '₦'+arpu+'k';
+  $('ltv-ch').textContent = ch+'%';
+  $('ltv-gm').textContent = gm+'%';
+  $('ltv-cac').textContent = '₦'+cac+'k';
+  $('ltv-dr').textContent = dr+'%';
+  const chRate = ch/100, gmRate = gm/100, drMo = dr/100/12;
+  const ltv = (arpu*gmRate)/(chRate+drMo);
+  const ratio = ltv/cac;
+  const payback = cac/(arpu*gmRate);
+  const custYr = Math.round(nc/chRate*(1-Math.exp(-chRate*12)));
+  cards('ltv-cards',[
+    {l:'LTV per customer',v:'₦'+Math.round(ltv)+'k',d:ratio>=3?'Above 3x benchmark':'Below 3x — improve',cls:ratio>=3?'gn':'rd'},
+    {l:'LTV : CAC ratio',v:Math.round(ratio*10)/10+'x',d:ratio>=3?'Target met ✓':'< 3x target',cls:ratio>=3?'gn':'rd'},
+    {l:'Payback period',v:Math.round(payback)+' mo',d:payback<=12?'Under 12 months':'Over 12 months',cls:payback<=12?'gn':'rd'},
+    {l:'Active customers yr 1',v:fmtN(custYr),d:'At '+ch+'% churn',cls:''},
+  ]);
+  const cumData = Array.from({length:24},(_,i)=>Math.round((arpu*gmRate)*(1-Math.exp(-chRate*(i+1)))/chRate));
+  $('ltv-leg').innerHTML = '<span><span class="ld" style="background:#1D9E75"></span>Cumulative LTV (₦k)</span><span><span class="ld" style="background:#D85A30;border-style:dashed"></span>CAC line (₦k)</span>';
+  mkChart('ltv-chart','line',{
+    labels:Array.from({length:24},(_,i)=>'M'+(i+1)),
+    datasets:[
+      {label:'LTV',data:cumData,borderColor:'#1D9E75',backgroundColor:'rgba(29,158,117,0.08)',fill:true,tension:0.4,pointRadius:0},
+      {label:'CAC',data:Array(24).fill(cac),borderColor:'#D85A30',borderDash:[5,4],pointRadius:0,fill:false}
+    ]
+  },{scales:{x:{ticks:{autoSkip:true,maxTicksLimit:12,font:{size:10}}},y:{ticks:{callback:v=>'₦'+v+'k',font:{size:10}}}}});
+  const xMonth = cumData.findIndex(v=>v>=cac);
+  $('ltv-insight').textContent = xMonth>=0
+    ? `CAC recovered in month ${xMonth+1}. LTV:CAC of ${Math.round(ratio*10)/10}x means every ₦1 of acquisition spend returns ₦${Math.round(ratio*10)/10} in lifetime gross profit. ${ratio>=3?'Above the 3x international benchmark — a compelling unit economics story for board and investors.':'Target 3x+ by reducing churn below '+Math.round(ch*0.7)+'% or increasing ARPU.'}`
+    : 'CAC not recovered within 24 months at current assumptions. Review pricing or churn reduction strategy.';
+}
+
+// ── PROJECT 3: MARKET ENTRY ──
+function calcMkt() {
+  const inputs = document.querySelectorAll('#m3-mkt input[type=range]');
+  const [pop,dig,cap,arpu,inv,gr] = [...inputs].map(i=>+i.value);
+  $('mkt-pop').textContent = pop+'M';
+  $('mkt-dig').textContent = dig+'%';
+  $('mkt-cap').textContent = cap+'%';
+  $('mkt-arpu').textContent = '₦'+arpu+'k';
+  $('mkt-inv').textContent = '₦'+inv+'M';
+  $('mkt-gr').textContent = gr+'%';
+  const tam = pop*1000000*(dig/100);
+  const y1custs = Math.round(tam*(cap/100));
+  const y1rev = Math.round(y1custs*arpu/1000);
+  const y2rev = Math.round(y1rev*(1+gr/100));
+  const y3rev = Math.round(y2rev*(1+gr/100));
+  const breakeven = Math.round(inv/y1rev*12);
+  cards('mkt-cards',[
+    {l:'TAM (digital population)',v:Math.round(tam/1000000*10)/10+'M',d:'At '+dig+'% penetration',cls:''},
+    {l:'Year 1 revenue',v:fmtM(y1rev),d:Math.round(y1custs/1000)+'k customers',cls:'gn'},
+    {l:'Year 3 revenue',v:fmtM(y3rev),d:'At '+gr+'% CAGR',cls:'gn'},
+    {l:'Breakeven estimate',v:breakeven+'mo',d:inv+'M initial investment',cls:breakeven<=24?'gn':'rd'},
+  ]);
+  mkChart('mkt-chart','bar',{
+    labels:['Year 1','Year 2','Year 3'],
+    datasets:[{label:'Revenue (₦M)',data:[y1rev,y2rev,y3rev],backgroundColor:['#1D9E75','#EF9F27','#378ADD'],borderRadius:4}]
+  },{scales:{y:{ticks:{callback:v=>fmtM(v),font:{size:10}}},x:{ticks:{font:{size:10}}}}});
+  $('mkt-insight').textContent = `Kenya TAM of ${Math.round(tam/1000000*10)/10}M digitally-reachable students supports a ${Math.round(y1custs/1000)}k Year 1 customer base at ${cap}% capture. 3-year revenue ramp to ${fmtM(y3rev)} at ${gr}% CAGR, with investment breakeven at ~${breakeven} months. ${breakeven<=24?'Strong ROI case for board approval.':'Recommend phased entry to reduce initial capital commitment.'}`;
+}
+
+let kScenActive = 'base';
+const kScens = {
+  base:{name:'Base case',gr:35,margin:26,custs:14000,rev:910},
+  bull:{name:'Bull case — pricing power',gr:60,margin:31,custs:22000,rev:1430},
+  bear:{name:'Bear case — FX headwinds',gr:15,margin:18,custs:8500,rev:553}
+};
+function loadKScen(key) {
+  kScenActive = key;
+  ['base','bull','bear'].forEach(k=>$('ks-'+k).classList.remove('active'));
+  $('ks-'+key).classList.add('active');
+  const d = Object.values(kScens);
+  mkChart('kscen-chart','bar',{
+    labels:['Base case','Bull case','Bear case'],
+    datasets:[
+      {label:'Yr 2 Revenue (₦M)',data:d.map(s=>Math.round(s.rev*(1+s.gr/100))),backgroundColor:['#1D9E75','#EF9F27','#D85A30'],borderRadius:4},
+      {label:'Yr 2 EBITDA (₦M)',data:d.map(s=>Math.round(s.rev*(1+s.gr/100)*s.margin/100)),backgroundColor:['rgba(29,158,117,0.35)','rgba(239,159,39,0.35)','rgba(216,90,48,0.35)'],borderRadius:4}
+    ]
+  },{scales:{y:{ticks:{callback:v=>fmtM(v),font:{size:10}}},x:{ticks:{font:{size:10}}}}});
+  const sc = kScens[key];
+  const msgs = {
+    base:`Base case projects ${sc.gr}% growth and ${sc.margin}% EBITDA margin — a robust entry thesis with ${Math.round(sc.custs/1000)}k Year 1 students. Suitable for standard board approval with phased milestones.`,
+    bull:`Bull case realises ${sc.gr}% growth via superior pricing and brand transfer from Nigeria. ${sc.margin}% margin reflects early operating leverage. Recommend contingent resource scaling tied to Q2 metrics.`,
+    bear:`Bear case stress-tests ${sc.gr}% growth and ${sc.margin}% margin under FX pressure and slower adoption. Key mitigation: local currency pricing model and delayed Capex commitment past Month 6.`
+  };
+  $('kscen-insight').textContent = msgs[key];
+}
+
+// ── PROJECT 4: 3-STATEMENT + BVA ──
+function calcStmt() {
+  const inputs = document.querySelectorAll('#m4-stmt input[type=range]');
+  const [rev,gr,cogsPct,opexPct,tax,capex] = [...inputs].map(i=>+i.value);
+  $('st-rev').textContent = '₦'+rev.toLocaleString()+'M';
+  $('st-gr').textContent = gr+'%';
+  $('st-cogs').textContent = cogsPct+'%';
+  $('st-opex').textContent = opexPct+'%';
+  $('st-tax').textContent = tax+'%';
+  $('st-capex').textContent = capex+'%';
+  const yrs = [0,1,2].map(i=>{
+    const r=Math.round(rev*Math.pow(1+gr/100,i));
+    const cogs=Math.round(r*cogsPct/100);
+    const gp=r-cogs; const op=Math.round(r*opexPct/100);
+    const eb=gp-op; const da=Math.round(r*0.04); const ebit=eb-da;
+    const t=Math.round(Math.max(0,ebit)*tax/100); const ni=ebit-t;
+    const fcf=ni+da-Math.round(r*capex/100);
+    return {r,cogs,gp,op,eb,da,ebit,t,ni,fcf};
+  });
+  const rows=[
+    ['Revenue',...yrs.map(y=>fmtM(y.r)),false],
+    ['— COGS',...yrs.map(y=>'('+fmtM(y.cogs)+')'),false],
+    ['Gross Profit',...yrs.map(y=>fmtM(y.gp)),true],
+    ['— Opex',...yrs.map(y=>'('+fmtM(y.op)+')'),false],
+    ['EBITDA',...yrs.map(y=>fmtM(y.eb)),true],
+    ['— D&A',...yrs.map(y=>'('+fmtM(y.da)+')'),false],
+    ['EBIT',...yrs.map(y=>fmtM(y.ebit)),false],
+    ['— Tax',...yrs.map(y=>'('+fmtM(y.t)+')'),false],
+    ['Net Income',...yrs.map(y=>fmtM(y.ni)),true],
+    ['Free Cash Flow',...yrs.map(y=>fmtM(y.fcf)),true],
+  ];
+  $('stmt-table').innerHTML = '<thead><tr><th>Line item</th><th>Year 1</th><th>Year 2</th><th>Year 3</th></tr></thead><tbody>'+
+    rows.map(r=>`<tr class="${r[4]?'hl':''}"><td class="rh">${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td><td>${r[3]}</td></tr>`).join('')+'</tbody>';
+  mkChart('stmt-chart','bar',{
+    labels:['Year 1','Year 2','Year 3'],
+    datasets:[
+      {label:'Revenue',data:yrs.map(y=>y.r),backgroundColor:'#1D9E75',borderRadius:3},
+      {label:'EBITDA',data:yrs.map(y=>y.eb),backgroundColor:'#EF9F27',borderRadius:3},
+      {label:'Net Income',data:yrs.map(y=>y.ni),backgroundColor:'#378ADD',borderRadius:3}
+    ]
+  },{scales:{y:{ticks:{callback:v=>'₦'+Math.round(v/1000)+'B',font:{size:10}}},x:{ticks:{font:{size:10}}}}});
+}
+
+function calcBva() {
+  const inputs = document.querySelectorAll('#m4-bva input[type=range]');
+  const [br,ar,bo,ao] = [...inputs].map(i=>+i.value);
+  $('bv-br').textContent=fmtM(br);$('bv-ar').textContent=fmtM(ar);
+  $('bv-bo').textContent=fmtM(bo);$('bv-ao').textContent=fmtM(ao);
+  const bEb=br-bo, aEb=ar-ao, rVar=ar-br, oVar=bo-ao;
+  function vRow(l,b,a){
+    const v=a-b; const isRev=l.includes('Rev')||l.includes('EBITDA');
+    const fav=isRev?v>0:v<0; const pct=b?((v/b)*100).toFixed(1):'—';
+    const cls=fav?'gn':'rd'; const sign=v>0?'+':'';
+    return `<tr><td class="rh">${l}</td><td>${fmtM(b)}</td><td>${fmtM(a)}</td><td class="${cls}">${sign}${fmtM(v)}</td><td class="${cls}">${sign}${pct}%</td></tr>`;
+  }
+  $('bva-table').innerHTML='<thead><tr><th>Line</th><th>Budget</th><th>Actual</th><th>Variance</th><th>Var %</th></tr></thead><tbody>'+
+    vRow('Revenue',br,ar)+vRow('Opex',bo,ao)+vRow('EBITDA',bEb,aEb)+'</tbody>';
+  mkChart('bva-chart','bar',{
+    labels:['Budget EBITDA','Revenue Var','Opex Var','Actual EBITDA'],
+    datasets:[{data:[bEb,rVar*0.5,oVar*0.4,aEb],backgroundColor:[bEb>=0?'#1D9E75':'#D85A30',rVar>=0?'#1D9E75':'#D85A30',oVar>=0?'#1D9E75':'#D85A30','#378ADD'],borderRadius:3}]
+  },{scales:{y:{ticks:{callback:v=>fmtM(v),font:{size:10}}},x:{ticks:{autoSkip:false,font:{size:10}}}}});
+  const revFav=rVar>0, opexFav=oVar>0;
+  $('bva-insight').textContent = `Revenue ${revFav?'beat':'missed'} budget by ${fmtM(Math.abs(rVar))} (${(Math.abs(rVar)/br*100).toFixed(1)}%). Opex ${opexFav?'underspent':'overspent'} by ${fmtM(Math.abs(ao-bo))}. Net EBITDA ${aEb>bEb?'outperformed':'underperformed'} budget by ${fmtM(Math.abs(aEb-bEb))}. ${aEb>bEb?'Positive variance driven primarily by revenue performance.':'Primary corrective action: review Opex cost lines — especially marketing and headcount.'}`;
+}
+
+// ── PROJECT 5: GROUP SCENARIOS ──
+let gScenActive='base';
+const gScens={
+  base:{name:'Base case',rev:2400,gr:22,margin:29,churn:5,ltv:4.7},
+  bull:{name:'Bull — Kenya + pricing',rev:2400,gr:38,margin:33,churn:3.5,ltv:6.2},
+  bear:{name:'Bear — macro stress',rev:2400,gr:8,margin:21,churn:9,ltv:2.9}
+};
+function loadGScen(key){
+  gScenActive=key;
+  ['base','bull','bear'].forEach(k=>$('gs-'+k).classList.remove('active'));
+  $('gs-'+key).classList.add('active');
+  const rows=Object.entries(gScens).map(([k,s])=>{
+    const y2=Math.round(s.rev*(1+s.gr/100)), y3=Math.round(s.rev*Math.pow(1+s.gr/100,2));
+    return `<tr class="${k===key?'hl':''}"><td class="rh">${s.name}</td><td>${s.gr}%</td><td>${s.margin}%</td><td>${s.churn}%</td><td>${s.ltv}x</td><td>${fmtM(y2)}</td><td>${fmtM(y3)}</td></tr>`;
+  });
+  $('gscen-table').innerHTML='<thead><tr><th>Scenario</th><th>Growth</th><th>EBITDA%</th><th>Churn</th><th>LTV:CAC</th><th>Yr 2 Rev</th><th>Yr 3 Rev</th></tr></thead><tbody>'+rows.join('')+'</tbody>';
+  const d=Object.values(gScens);
+  $('gscen-leg').innerHTML='<span><span class="ld" style="background:#1D9E75"></span>Revenue</span><span><span class="ld" style="background:rgba(29,158,117,0.4)"></span>EBITDA</span>';
+  mkChart('gscen-chart','bar',{
+    labels:['Base case','Bull case','Bear case'],
+    datasets:[
+      {label:'Yr 2 Revenue',data:d.map(s=>Math.round(s.rev*(1+s.gr/100))),backgroundColor:['#1D9E75','#EF9F27','#D85A30'],borderRadius:3},
+      {label:'Yr 2 EBITDA',data:d.map(s=>Math.round(s.rev*(1+s.gr/100)*s.margin/100)),backgroundColor:['rgba(29,158,117,0.4)','rgba(239,159,39,0.4)','rgba(216,90,48,0.4)'],borderRadius:3}
+    ]
+  },{scales:{y:{ticks:{callback:v=>'₦'+Math.round(v/1000)+'B',font:{size:10}}},x:{ticks:{font:{size:10}}}}});
+  const sc=gScens[key];
+  const msgs={
+    base:`Base case: ${sc.gr}% growth drives Year 2 revenue to ${fmtM(Math.round(sc.rev*(1+sc.gr/100)))} at ${sc.margin}% EBITDA margin. LTV:CAC of ${sc.ltv}x comfortably above the 3x international benchmark. Recommended allocation: continue current investment cadence.`,
+    bull:`Bull case realises ${sc.gr}% growth as Kenya expansion and pricing power compound. EBITDA margin expands to ${sc.margin}% with operating leverage. LTV:CAC reaches ${sc.ltv}x — triggering recommendation to accelerate marketing spend and headcount.`,
+    bear:`Bear case stress: ${sc.gr}% growth with ${sc.churn}% churn drags LTV:CAC to ${sc.ltv}x — below the 3x threshold. Recommended actions: freeze discretionary Capex, review CAC efficiency by channel, and implement churn intervention programme within 60 days.`
+  };
+  $('gscen-insight').textContent=msgs[key];
+}
+
+// ── PROJECT 6: FLEET + SAAS ──
+function calcFleet(){
+  const inputs=document.querySelectorAll('#m6-fleet input[type=range]');
+  const [sz,km,fuel,save]=[...inputs].map(i=>+i.value);
+  $('fl-size').textContent=sz; $('fl-km').textContent=km+' km';
+  $('fl-fuel').textContent='₦'+fuel; $('fl-save').textContent=save+'%';
+  const totalKm=sz*km*30;
+  const costBefore=Math.round(totalKm*fuel/1000);
+  const costAfter=Math.round(costBefore*(1-save/100));
+  const monthly=costBefore-costAfter;
+  const annual=monthly*12;
+  cards('fleet-cards',[
+    {l:'Monthly km (fleet)',v:Math.round(totalKm/1000)+'k km',d:sz+' vehicles',cls:''},
+    {l:'Cost before (monthly)',v:'₦'+Math.round(costBefore/1000)+'k',d:'Fuel baseline',cls:''},
+    {l:'Monthly saving',v:'₦'+Math.round(monthly/1000)+'k',d:save+'% optimised',cls:'gn'},
+    {l:'Annual fuel saving',v:'₦'+Math.round(annual/1000000*10)/10+'M',d:'Route optimisation',cls:'gn'},
+  ]);
+  const months=Array.from({length:12},(_,i)=>'M'+(i+1));
+  mkChart('fleet-chart','bar',{
+    labels:months,
+    datasets:[
+      {label:'Before',data:months.map(()=>costBefore),backgroundColor:'rgba(216,90,48,0.5)',borderRadius:2},
+      {label:'After',data:months.map(()=>costAfter),backgroundColor:'#1D9E75',borderRadius:2}
+    ]
+  },{scales:{y:{ticks:{callback:v=>'₦'+Math.round(v/1000)+'k',font:{size:10}}},x:{ticks:{font:{size:10}}}}});
+  $('fleet-insight').textContent=`Route optimisation at ${save}% efficiency saves ₦${Math.round(monthly/1000)}k monthly across the ${sz}-vehicle fleet — ₦${Math.round(annual/1000000*10)/10}M annually. KPI dashboards surfaced underperforming routes within 48 hours of implementation, enabling real-time corrective action for operations teams.`;
+}
+
+function calcSaas(){
+  const inputs=document.querySelectorAll('#m6-saas input[type=range]');
+  const [mau,up,rev,cvr]=[...inputs].map(i=>+i.value);
+  $('ss-mau').textContent=mau+'k'; $('ss-up').textContent=up+'%';
+  $('ss-rev').textContent='$'+rev; $('ss-cvr').textContent=cvr+'%';
+  const baseMau=mau*1000;
+  const newMau=Math.round(baseMau*(1+up/100));
+  const paidUsers=Math.round(newMau*(cvr/100));
+  const mrr=Math.round(paidUsers*rev);
+  const uplift=Math.round((newMau-baseMau)*cvr/100*rev);
+  cards('saas-cards',[
+    {l:'MAU after uplift',v:Math.round(newMau/1000)+'k',d:'+'+up+'% engagement',cls:'gn'},
+    {l:'Paying users',v:Math.round(paidUsers/1000*10)/10+'k',d:'At '+cvr+'% conversion',cls:'gn'},
+    {l:'MRR',v:'$'+Math.round(mrr/1000)+'k',d:'Monthly recurring',cls:'gn'},
+    {l:'Revenue uplift/mo',v:'$'+Math.round(uplift/1000)+'k',d:'From engagement gain',cls:'gn'},
+  ]);
+  const qLabels=['Q1 (pre)','Q2','Q3','Q4 (post)'];
+  const qData=[mau,Math.round(mau*(1+up/100*0.4)),Math.round(mau*(1+up/100*0.7)),Math.round(mau*(1+up/100))];
+  mkChart('saas-chart','line',{
+    labels:qLabels,
+    datasets:[{label:'MAU (k)',data:qData,borderColor:'#378ADD',backgroundColor:'rgba(55,138,221,0.08)',fill:true,tension:0.4,pointRadius:5,pointBackgroundColor:'#378ADD'}]
+  },{scales:{y:{ticks:{callback:v=>v+'k MAU',font:{size:10}}},x:{ticks:{font:{size:10}}}}});
+  $('saas-insight').textContent=`A/B testing and feature analysis drove ${up}% MAU uplift — from ${mau}k to ${Math.round(mau*(1+up/100))}k monthly active users. At ${cvr}% conversion and $${rev}/user MRR, this translates to $${Math.round(uplift/1000)}k incremental monthly revenue from engagement improvements alone. Findings were integrated into the product roadmap within the same sprint cycle.`;
+}
+
+// ── EXEC DASHBOARD CHARTS ──
+window.addEventListener('DOMContentLoaded', () => {
+  const revData=[152,181,165,203,194,228,215,247,238,275,261,298];
+  mkChart('db-rev-chart','line',{
+    labels:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+    datasets:[{label:'Revenue',data:revData,borderColor:'#c9a84c',backgroundColor:'rgba(201,168,76,0.08)',fill:true,tension:0.4,pointRadius:0}]
+  },{scales:{y:{ticks:{callback:v=>'₦'+v+'M',color:'rgba(250,247,240,0.4)',font:{size:10}},grid:{color:'rgba(255,255,255,0.05)'}},x:{ticks:{color:'rgba(250,247,240,0.4)',font:{size:10}},grid:{color:'rgba(255,255,255,0.05)'}}}});
+
+  mkChart('db-bridge-chart','bar',{
+    labels:['Budget','Rev +','Opex-','Mkt+','Actual'],
+    datasets:[{data:[550,185,-68,30,697],backgroundColor:['#378ADD','#1D9E75','#D85A30','#1D9E75','#c9a84c'],borderRadius:3}]
+  },{scales:{y:{ticks:{callback:v=>fmtM(v),color:'rgba(250,247,240,0.4)',font:{size:10}},grid:{color:'rgba(255,255,255,0.05)'}},x:{ticks:{autoSkip:false,color:'rgba(250,247,240,0.4)',font:{size:10}},grid:{color:'rgba(255,255,255,0.05)'}}}});
+});
+</script>
+</body>
+</html>
